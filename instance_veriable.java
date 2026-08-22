@@ -1,9 +1,9 @@
 class instance_veriable{
-    int x=100;
+	int x=10;
 
-    public static void main(String[] args) {
-        instance_veriable t= new instance_veriable();
+public static void main(String[] args){
+	instance_veriable t= new instance_veriable();
+	System.out.println(t.x);
+}
 
-        System.out.println(t.x);
-    }
 }

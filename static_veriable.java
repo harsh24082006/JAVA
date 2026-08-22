@@ -1,14 +1,11 @@
-public class static_veriable {
-    static int x=150;
+class static_veriable{
+	static int y=120;
+public static void main(String[] args){
+	System.out.println(y);
 
-public static void main(String[] args) {
-    
-    System.out.println(x);
+	System.out.println(static_veriable.y);
 
-    System.out.println(static_veriable.x);
-
-    static_veriable b= new static_veriable();
-    System.out.println(b.x);
+	static_veriable s= new static_veriable();
+	System.out.println(s.y);
 }
-
 }
